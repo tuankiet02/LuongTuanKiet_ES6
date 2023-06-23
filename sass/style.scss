@@ -1,0 +1,28 @@
+header {
+  background-image: linear-gradient(
+    to right,
+    #3bcde7 0,
+    #1013d6 51%,
+    #bd9b06 100%
+  );
+  .header_logo {
+    padding: 20px 0;
+
+    font-size: 30px;
+    .navbar-brand {
+      img {
+        width: 150px;
+        height: 60px;
+        &::before {
+          background-color: #3bcde767;
+          z-index: 99;
+        }
+      }
+    }
+    a {
+      text-decoration: none;
+      color: rgb(236, 92, 92);
+      font-weight: 700;
+    }
+  }
+}
